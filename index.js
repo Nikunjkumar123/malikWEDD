@@ -17,7 +17,7 @@ const freekaViewroute = require('./Routers/freekaViewroute.js');
 const ProfilesRouter = require('./Routers/ProfilesRouter.js');
 
 const corsOptions = {
-    origin: '*', 
+    origin: 'http://localhost:3000', 
     methods: 'GET, POST, PUT, DELETE', 
     credentials: true, 
 };
